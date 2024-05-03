@@ -1,4 +1,4 @@
-#include <stdio.h>;
+#include <stdio.h>
 int main() {
     int num = 0;
     int cubo = 0 ;
