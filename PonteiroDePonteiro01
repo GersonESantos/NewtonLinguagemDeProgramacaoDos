@@ -1,0 +1,22 @@
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+int main() {
+    int x = 10;
+    int *ptr1 = &x; // ponteiro para x
+    int **ptr2 = &ptr1; // ponteiro para ptr1
+
+
+    printf("Valor de x: %d\n", x);
+   /* printf("Endereço de x: %p\n", &x);
+    printf("Valor de ptr1 (ponteiro para x): %p\n", ptr1);
+    printf("Endereço de ptr1: %p\n", &ptr1);
+    printf("Valor de ptr2 (ponteiro para ptr1): %p\n", ptr2);
+    printf("Endereço de ptr2: %p\n", &ptr2);
+    printf("Valor apontado por ptr1: %d\n", *ptr1);
+    printf("Valor apontado por ptr2 (ponteiro para ptr1): %p\n", *ptr2);
+    printf("Valor apontado por ptr2 e ptr1 (valor de x): %d\n", **ptr2);
+*/
+    return 0;
+}
