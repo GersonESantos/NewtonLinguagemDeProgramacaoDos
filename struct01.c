@@ -19,8 +19,10 @@ int main(void) {
         return 1;
     }
 
-    printf("%zu\n", sizeof(estrutura)); // Corrigi a formatação e usei %zu para o tipo size_t.
+    printf("%li\n", sizeof(estrutura)); 
 
+    
+    
     free(y);
 
     return 0;

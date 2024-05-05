@@ -6,7 +6,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
     int *pi;
-    pi = (int *)malloc(sizeof(int));
+    pi = (int *) malloc(sizeof(int));
 
     if (pi == NULL) {
         printf("Falha na alocação de memória!\n");
@@ -19,8 +19,7 @@ int main() {
 
     free(pi);
 
-    // Após liberar a memória, é inseguro acessar seu conteúdo.
-     printf("\nInformacao alocada: %d\n\n", &pi);
+     printf("\nInformacao alocada: %d\n", &pi);
 
     system("pause");
     return 0;

@@ -1,6 +1,6 @@
 /*
-Exercicio 22 - Escreva um programa que converta em valor inteiro o tamanho de uma variável e imprima esse
-valor em bytes na tela com computador:
+Exemplo: para demonstrar o uso da função realloc(), faremos um pequeno programa que armazenará inteiros em
+um vetor de 10 elementos e o aumentaremos para 15 elementos:
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,7 +30,7 @@ int main() {
     for (int n = 10; n < 15; n++)
         vetor[n] = n;
 
-    printf("\n");
+    printf("\n Exemplo de  função realloc(),");
     for (int n = 0; n < 15; n++)
         printf("\n vetor[%i] = %i", n, vetor[n]);
 

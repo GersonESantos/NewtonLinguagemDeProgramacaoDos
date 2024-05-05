@@ -26,7 +26,7 @@ int main() {
         }
     }
 
-    // Impressão do número de pessoas que podem votar
+    // Impress�o do numero de pessoas que podem votar
     printf("%d pessoas desse grupo podem votar!\n", cont);
 
     return 0;

@@ -11,6 +11,8 @@ int main() {
     pt2 = &pt1;
 
     printf("Conteúdo do ponteiro pt2: %p\n", (void*)pt2);
+    printf("Conteúdo do ponteiro pt1: %p\n", (void*)pt1);
+    printf("Conteúdo do ponteiro apontado por (*pt1): %p\n", (void*)*pt1);
     printf("Conteúdo do ponteiro apontado por (*pt2): %p\n", (void*)*pt2);
     printf("Conteúdo do endereço armazenado pelo ponteiro apontado por (**pt2): %i\n", **pt2);
 

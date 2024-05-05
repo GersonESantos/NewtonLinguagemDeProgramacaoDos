@@ -19,7 +19,7 @@ int main() {
     for (i = 0; i < 5; i++) {
         array[i] = i * 10;
     }
-
+    printf("\n");
     // Imprime os valores do array
     printf("Valores do array:\n");
     for (i = 0; i < 5; i++) {

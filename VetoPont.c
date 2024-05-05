@@ -11,7 +11,7 @@ int main() {
     ptvetor = vet;
     
     for (i = 0; i < 10; i++) {
-        printf("%p - %i\n", (void*)ptvetor, *ptvetor);
+        printf("%p - %i\n", ptvetor, *ptvetor);
         ptvetor++; // passa para o próximo endereço
     }
     

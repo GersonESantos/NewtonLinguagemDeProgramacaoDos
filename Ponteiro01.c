@@ -7,17 +7,17 @@ int main() {
     int *ptr;
     ptr = &var;
     printf("\nConteudo de Var:              = %d ", var);
-    printf("\nEndereco de Var:              = %p ", (void*)&var);
+    printf("\nEndereco de Var:              = %p ", &var);
     printf("\nConteudo Apontado por ptr     = %d ", *ptr);
-    printf("\nEndereco Apontado por ptr     = %p ", (void*)ptr);
-    printf("\nEndereco de ptr:              = %p ", (void*)&ptr);
+    printf("\nEndereco Apontado por ptr     = %p ", ptr);
+    printf("\nEndereco de ptr:              = %p ", &ptr);
     *ptr = 73;
     printf("\n-------------------------------------");
     printf("\nConteudo de Var:              = %d ", var);
-    printf("\nEndereco de Var:              = %p ", (void*)&var);
+    printf("\nEndereco de Var:              = %p ", &var);
     printf("\nConteudo Apontado por ptr     = %d ", *ptr);
-    printf("\nEndereco Apontado por ptr     = %p ", (void*)ptr);
-    printf("\nEndereco de ptr:              = %p ", (void*)&ptr);
+    printf("\nEndereco Apontado por ptr     = %p ", ptr);
+    printf("\nEndereco de ptr:              = %p ", &ptr);
     return (0);
 }
 //Ponteiros

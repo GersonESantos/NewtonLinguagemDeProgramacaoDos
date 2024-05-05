@@ -1,19 +1,19 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdbool.h> // Incluí a biblioteca necessária para o tipo de dado bool
+#include <stdbool.h> // Incluï¿½ a biblioteca necessï¿½ria para o tipo de dado bool
 
 int main() {
     int i, inteiro;
     float real;
     char caracter;
-    bool booleano; // Adicionei a declaração da variável booleano e o tipo de dado bool
+    bool booleano; // Adicionei a declaraï¿½ï¿½o da variï¿½vel booleano e o tipo de dado bool
     
     int *ptinteiro = &inteiro;
     float *ptreal = &real;
     char *ptchar = &caracter;
     bool *ptbool = &booleano;
 
-    for (i = 0; i < 5; i++) { // Corrigi o loop para executar 5 iterações
+    for (i = 0; i < 5; i++) { 
         printf("|Inteiro - %p |Real - %p |Char - %p |Boolean - %p|\n", (void*)ptinteiro, (void*)ptreal, (void*)ptchar, (void*)ptbool);
         ptinteiro++;
         ptreal++;

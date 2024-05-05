@@ -7,20 +7,22 @@ int main() {
     int i, j;
     char nomes[3][2][51];
     setlocale(LC_ALL, "Portuguese");
-
+    printf("Preenchimento da matriz  strings\n");
     // Preenchimento da matriz de Strings
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 2; j++) {
             printf("nome [%d][%d]: ", i, j);
             fgets(nomes[i][j], 51, stdin);
-            // Removendo o caractere de nova linha do final da string
+            
             nomes[i][j][strlen(nomes[i][j]) - 1] = '\0';
         }
     }
 
     printf("\n");
 
-    // ImpressÃ£o da matriz de strings
+    // Impressão da matrdeiz  strings
+
+    printf("Impressão da matrdeiz  strings");
     for (i = 0; i < 3; i++) {
         printf("\n");
         for (j = 0; j < 2; j++) {
