@@ -5,17 +5,12 @@ imprima na tela:
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+void f_d (int vet(10))
 
 int main() {
-    setlocale(LC_ALL, "Portuguese_Brazil");
+   
 
-    int *v, n = 10;
-    v = (int *)malloc(sizeof(int) * n);
-
-    if (v == NULL) {
-        printf("Falha na alocação de memória!\n");
-        return 1;
-    }
+    
 
     int i;
     for (i = 0; i < n; i++)
