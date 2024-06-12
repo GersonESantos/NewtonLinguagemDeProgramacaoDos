@@ -8,7 +8,6 @@ int main() {
     char nomes[3][2][51];
     setlocale(LC_ALL, "Portuguese");
     printf("Preenchimento da matriz  strings\n");
-    // Preenchimento da matriz de Strings
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 2; j++) {
             printf("nome [%d][%d]: ", i, j);
@@ -20,9 +19,9 @@ int main() {
 
     printf("\n");
 
-    // Impressão da matrdeiz  strings
+    // Impressï¿½o da matrdeiz  strings
 
-    printf("Impressão da matrdeiz  strings");
+    printf("Impressï¿½o da matrdeiz  strings");
     for (i = 0; i < 3; i++) {
         printf("\n");
         for (j = 0; j < 2; j++) {
