@@ -6,6 +6,7 @@ int main() {
     gets(v);
     
   
+  
 
         int tam = strlen(v);
         for (int i = tam - 1; i >= 0; i--) {
