@@ -9,7 +9,7 @@ int main() {
 
     pt1 = (int*)malloc(sizeof(int) * 5);
 
-    printf("----malloc(sizeof(int)-----alocação dinâmica de memória\n");
+    printf("----malloc(sizeof(int)-----alocacao dinâmica de memória\n");
 
     for (i = 0; i < 5; i++) { 
         printf("Digite o %dº valor inteiro: ", i + 1);
