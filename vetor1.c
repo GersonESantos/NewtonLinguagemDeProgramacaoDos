@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int main(void)
 {
   float notas[18] = {7, 8, 9.5, 9.9, 5.2,8.7};
